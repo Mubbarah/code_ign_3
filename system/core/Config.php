@@ -36,7 +36,12 @@
  * @since	Version 1.0.0
  * @filesource
  */
+
 defined('BASEPATH') OR exit('No direct script access allowed');
+
+$config['base_url'] = '';
+$config['index_page'] = '';
+$config['uri_protocol'] = 'AUTO';
 
 /**
  * Config Class
